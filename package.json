@@ -1,0 +1,24 @@
+{
+  "name": "one-rune-bot",
+  "version": "0.0.1",
+  "description": "Discord bot integrated with Dota 2",
+  "main": "index.js",
+  "author": "Stazeg <stazeg@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/Bot.ts",
+    "deploy": "ts-node src/deploy-commands.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.13",
+    "eslint": "^8.56.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
